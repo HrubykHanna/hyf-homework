@@ -47,7 +47,7 @@ nav ul {
     color: black;
 }
 
-.active/*:active*/ {
+.active/*:active*/ /*I put it here because I think it will be displayed that way when we are on this particular page.*/{
     color: #9d9d9d;
 }
 
