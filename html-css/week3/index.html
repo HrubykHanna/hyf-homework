@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-homework </title>
+    <link rel='stylesheet' href='main.css' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--header-->
+    <header class="text-color">
+        <h1>PAYMENT</h1>
+        <p>Choose your payment method.</p>
+    </header>
+    <!--and-header-->
+
+    <!--form-->
+    <form action="" method="get" class="payment">
+
+        <!--total-->
+        <div class="total">
+            <h2>Order Summary</h2>
+            <div class="total-elemets">
+                <p>Total</p>
+                <p>$333 / month</p>
+            </div>
+            <hr>
+            <div class="total-elemets">
+                <p><strong>Total</strong></p>
+                <p><strong>$100</strong></p>
+            </div>
+        </div>
+        <!--and total-->
+
+
+        <div class="payment-body">
+
+            <!--paymet method-->
+            <div class="payment-method">
+                <h2>Payment Method</h2>
+                <div class="method">
+                    <label for="method-1" class="radio-label">
+                        <input id="method-1" name="method" type="radio" value="Credit / Debit" checked />
+                        <div class="design-method">
+                            <img class="img-mob-1"
+                                src="https://github.com/HrubykHanna/hyf-homework/blob/main/git/week2/cards.png?raw=true"
+                                alt="mastercards visa americanexpress icons">
+                            <h3> Credit / Debit </h3>
+                        </div>
+                    </label>
+
+                    <label for="method-2" class="radio-label">
+                        <input id="method-2" name="method" type="radio" value="PayPal" />
+                        <div class="design-method">
+                            <img class="img-mob-2"
+                                src="https://github.com/HrubykHanna/hyf-homework/blob/main/git/week2/paypal.png?raw=true"
+                                alt="paypal icon">
+                            <h3>PayPal</h3>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <!--and payment method-->
+
+            <!--card info-->
+            <div class="card-info">
+                <h2> Card Info</h2>
+                <div class='card-row'>
+                    <div>
+                        <h3>Card Number</h3>
+                        <div class="form-row-1">
+                            <label for="card-number"></label>
+                            <input id="card-number" name="card-number" type="text" placeholder="1234 1234 1234 1234">
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Expiry Date</h3>
+                        <div class="form-row-2">
+                            <label for="expiry-date" class="expiry-date"></label>
+                            <input id="expiry-date" name="expiry-date" type="text" placeholder="MM / YY">
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Security Code</h3>
+                        <div class="form-row-3">
+                            <label for="security-code" class="security-code"></label>
+                            <input id="security-code" name="security-code" type="text" placeholder="CVV">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--and card info-->
+
+            <!--button-->
+            <div>
+                <button>Buy Now</button>
+                <h4><a href="">Need help?</a></h4>
+            </div>
+            <!--and button-->
+
+        </div>
+
+    </form>
+
+</body>
+
+</html>
