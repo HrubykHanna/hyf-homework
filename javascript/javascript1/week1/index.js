@@ -47,19 +47,21 @@ console.log('Peter will pay too much');
 
 // Julia Hous
 
-const juliasWide = 8;
-const juliasDeep = 10;
-const juliasHigh = 10;
-const juliasGardenSizeInM2 = 100,
+const juliasWide = 5;
+const juliasDeep = 11;
+const juliasHigh = 8;
+const juliasGardenSizeInM2 = 70,
 
 const volumeInMeters = juliasWide * juliasDeep * juliasHigh;
 const housePrice = volumeInMeters * 2.5 * 1000 + juliasGardenSizeInM2 * 300;
 
-const juliasHousCost = 2.500.000;
+const juliasHousCost = 1.000.000;
 
 if (housePrice < juliasHousCost)
     console.log('julia will pay too little');
 else (housePrice > juliasHousCost)
 console.log('Julia will pay too much');
+
+
 
 
