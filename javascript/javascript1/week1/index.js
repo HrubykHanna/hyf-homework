@@ -59,7 +59,8 @@ const housePrice2 = volumeInMeters * 2.5 * 1000 + juliasGardenSizeInM2 * 300;
 
 const juliasHousCost = 1000000;
 
-if (housePrice < juliasHousCost)
+if (housePrice < juliasHousCost) {
     console.log('julia will pay too little');
-else (housePrice > juliasHousCost)
-console.log('Julia will pay too much');
+} else {
+    console.log('Julia will pay too much');
+}
